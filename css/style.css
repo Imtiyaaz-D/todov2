@@ -7,14 +7,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.container{
     width:100%;
     min-height:100vh;
     background:linear-gradient(160deg,#8EF9F3,#171738);
     padding: 10px;
 }
-.to-do-list{
+
+.row-input{
     width:100%;
     max-width: 540px;
     background: white;
@@ -26,22 +25,7 @@
     align-items: center;
     
 }
-.to-do-list h2{
-    color:#8EF9F3 ;
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 30px;
-    margin: 10px;
-    background: #8EF9F3;
-    padding-left: 20px;
-    margin-bottom: 25px;
-}
+
 input{
     flex:1;
     border:none;
@@ -49,15 +33,11 @@ input{
     background: transparent;
     padding: 10px;
 }
-button{
+.row{
+    margin: 20px;
     border: none;
     outline: none;
     padding: 10px,50px,10px;
-    border-radius: 30px;
-    
+    border-radius: 30px; 
 }
-ul li {
-    list-style: none;
-    user-select:none;
-    cursor: pointer;
-}
+
